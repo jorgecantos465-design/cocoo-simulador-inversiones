@@ -556,7 +556,7 @@ export function Simulator({ mode = "purchase" }: { mode?: SimulatorMode }) {
       <div className="mx-auto grid w-full max-w-6xl gap-6 px-4 py-5 sm:px-6 lg:px-8">
         <header className="flex flex-wrap items-center justify-between gap-4 border-b border-[#d9d3c7] pb-4">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-wide text-[#2f6f63]">Cocoo</p>
+            <div className="h-[14px]" aria-label="COCOO"><img src="/cocoo-wordmark.svg" alt="COCOO" className="block h-full w-auto" /></div>
             <h1 className="text-2xl font-semibold text-[#28322f] sm:text-3xl">
               {isInvestment ? "Simulador de impacto de una inversión" : "Simulador de compra o gasto importante"}
             </h1>
